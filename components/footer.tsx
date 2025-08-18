@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Hammer, Facebook, Instagram, Linkedin } from "lucide-react"
 
 export default function Footer() {
@@ -9,13 +10,26 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-3 mb-6">
-              <div className="bg-amber-600 p-2 rounded-lg">
+              {/* <div className="bg-amber-600 p-2 rounded-lg">
                 <Hammer className="h-6 w-6 text-white" />
               </div>
               <div>
                 <h3 className="text-xl font-bold">Trades Mates</h3>
                 <p className="text-amber-200 text-sm">Building Excellence</p>
+              </div> */}
+              <Link href="/" className="flex items-center space-x-3">
+              <div className="bg-white p-2 rounded-lg">
+                <Image 
+                    src={"/tmb_logo.png"} 
+                    alt="Trades Mates Logo" 
+                    width={100} // Specify the width of your image in pixels
+                    height={100} // Specify the height of your image in pixels
+                    // You might also add 'className' here for styling the image itself if needed
+                  />
               </div>
+             
+            
+          </Link>
             </div>
             <p className="text-amber-100 mb-4">
               Quality construction services across Sydney and NSW. Building your dreams with expertise and reliability.

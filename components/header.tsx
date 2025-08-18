@@ -4,6 +4,7 @@ import { useState } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Menu, X, Hammer } from "lucide-react"
+import Image from "next/image"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -14,13 +15,15 @@ export default function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
-            <div className="bg-amber-600 p-2 rounded-lg">
-              <Hammer className="h-8 w-8 text-white" />
-            </div>
-            <div>
-              <h1 className="text-2xl font-bold text-amber-900">Trades Mates</h1>
-              <p className="text-sm text-stone-600">Building Excellence</p>
-            </div>
+            {/* <div className="bg-amber-600 p-2 rounded-lg"> */}
+              <Image 
+                src={"/tmb_logo.png"} 
+                alt="Trades Mates Logo" 
+                width={80} // Specify the width of your image in pixels
+                height={80} // Specify the height of your image in pixels
+                // You might also add 'className' here for styling the image itself if needed
+              />
+            
           </Link>
 
           {/* Desktop Navigation */}
