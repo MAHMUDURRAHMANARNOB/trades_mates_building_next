@@ -22,14 +22,13 @@ export default function Hero() {
       <div className="relative z-10 container mx-auto px-4">
         <div className="max-w-4xl">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-            Quality Construction
+            Quality Construction & Renovation Services
             <span className="block text-amber-400">Across Sydney & NSW</span>
           </h1>
 
           <p className="text-xl md:text-2xl text-stone-200 mb-8 max-w-2xl">
-            With over 15 years of experience, we deliver exceptional construction projects that stand the test of time.
-            From residential homes to commercial developments.
-          </p>
+            With over 15 years of experience, we craft lasting residential homes through expert new builds, renovations, repairs, and inspections, focusing on single-story properties.
+            </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
             <Link href="/quote">

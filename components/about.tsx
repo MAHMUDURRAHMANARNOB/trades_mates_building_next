@@ -72,7 +72,7 @@ export default function About() {
           {/* Image */}
           <div className="relative">
             <Image
-              src="/sydney-construction-team.png"
+              src="/images/gallary/7.jpeg"
               alt="Trades Mates Building team"
               width={500}
               height={600}

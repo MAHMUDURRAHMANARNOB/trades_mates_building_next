@@ -6,16 +6,18 @@ import Link from "next/link"
 
 const featuredProjects = [
   {
-    title: "Luxury Residential Complex",
-    location: "Bondi Beach, NSW",
-    image: "/luxury-bondi-apartments.png",
-    description: "50-unit luxury development with ocean views and sustainable design features.",
+    title: "Luxary Residential Home",
+    image: "/condell-park-project.jpg",
+    location: "Condell park, NSW",
+    description: "Laying a strong foundation for a new home in Condell Park, NSW",
+    category: "New Build",
   },
   {
-    title: "Commercial Office Tower",
-    location: "Sydney CBD, NSW",
-    image: "/sydney-office-tower.png",
-    description: "25-story office tower with state-of-the-art facilities and green certification.",
+    title: "Project Inspection",
+    image: "/inspection-project.jpg",
+    location: "Condell park, NSW",
+    description: "Laying a strong foundation for a new home in Condell Park, NSW",
+    category: "New Build",
   },
   {
     title: "Heritage Home Renovation",
