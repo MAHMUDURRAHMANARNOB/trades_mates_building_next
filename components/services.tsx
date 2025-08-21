@@ -160,26 +160,18 @@ const services = [
       "New Builds",
       "Custom Home Building",
       "New Home Construction",
-      "Taileored to your budget and needs",
+      "Taileored to your budget's needs",
     ],
   },
-  {
-    icon: MapPin,
-    title: "Planning and Surveying",
-    subItems: [
-      "Town Planning",
-      "Surveying Services",
-    ],
-  },
+  
   {
     icon: Wrench,
     title: "Renovation Services",
     subItems: [
-      "Kitchen and Bathroom Renovations",
+      "Kitchen and Bathroom",
       "Interior and Exterior Upgrades",
       "Living Space Redesign",
-      "Small-Scale Construction & Repairs",
-      "Timber flooring +more"
+      "+more"
     ],
   },
   // {
@@ -194,9 +186,10 @@ const services = [
     icon: Search,
     title: "Building Inspections",
     subItems: [
+      "Handover Defect Inspections",
+      "Dilapidation Inspections",
       "Pre-Purchase Property Inspections",
       "Structural Integrity Checks",
-      "Safety and Compliance Audits",
     ],
   },
   {
@@ -218,12 +211,20 @@ const services = [
   //   ],
   // },
   {
+    icon: MapPin,
+    title: "Planning and Surveying",
+    subItems: [
+      "Town Planning",
+      "Surveying",
+    ],
+  },
+  {
     icon: Briefcase,
     title: "Special Services",
     subItems: [
       "Civil Engineering",
       "Storm Water",
-      "Architect & Engineer",
+      "Architect",
       "Private Certifier",
     ],
   },
