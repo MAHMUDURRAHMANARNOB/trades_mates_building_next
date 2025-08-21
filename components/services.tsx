@@ -157,10 +157,10 @@ const services = [
     icon: Home,
     title: "Residential Construction",
     subItems: [
+      "New Builds",
       "Custom Home Building",
       "New Home Construction",
-      "Home Extensions",
-      "Building Construction",
+      "Taileored to your budget and needs",
     ],
   },
   {
@@ -179,25 +179,17 @@ const services = [
       "Interior and Exterior Upgrades",
       "Living Space Redesign",
       "Small-Scale Construction & Repairs",
+      "Timber flooring +more"
     ],
   },
-  {
-    icon: Droplet,
-    title: "Waterproofing Solutions",
-    subItems: [
-      "Basement and Foundation Waterproofing",
-      "Roof and Wall Sealing",
-      "Moisture Damage Prevention",
-    ],
-  },
-  {
-    icon: Building,
-    title: "Certification and Design",
-    subItems: [
-      "Private Certifier (PC) Services",
-      "Architectural Design",
-    ],
-  },
+  // {
+  //   icon: Building,
+  //   title: "Certification and Design",
+  //   subItems: [
+  //     "Private Certifier (PC) Services",
+  //     "Architectural Design",
+  //   ],
+  // },
   {
     icon: Search,
     title: "Building Inspections",
@@ -216,23 +208,23 @@ const services = [
       "Weather Damage Restoration",
     ],
   },
-  {
-    icon: Wrench,
-    title: "Flooring Installation",
-    subItems: [
-      "Hardwood and Laminate Flooring",
-      "Tile and Stone Installation",
-      "Floor Repair and Refinishing",
-    ],
-  },
+  // {
+  //   icon: Wrench,
+  //   title: "Flooring Installation",
+  //   subItems: [
+  //     "Hardwood and Laminate Flooring",
+  //     "Tile and Stone Installation",
+  //     "Floor Repair and Refinishing",
+  //   ],
+  // },
   {
     icon: Briefcase,
     title: "Additional Services",
     subItems: [
-      "Plumbing Installation",
-      "Electrical Setup",
-      "HVAC System Installation",
-      "Lighting Design and Installation",
+      "Town Planner",
+      "Surveyor",
+      "Architect & Engineer",
+      "Private Certifier",
     ],
   },
 ]
