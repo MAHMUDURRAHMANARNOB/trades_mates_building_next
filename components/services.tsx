@@ -219,10 +219,10 @@ const services = [
   // },
   {
     icon: Briefcase,
-    title: "Additional Services",
+    title: "Special Services",
     subItems: [
-      "Town Planner",
-      "Surveyor",
+      "Civil Engineering",
+      "Storm Water",
       "Architect & Engineer",
       "Private Certifier",
     ],
