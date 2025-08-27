@@ -31,10 +31,10 @@ export default function Header() {
             <Link href="/" className="text-stone-700 hover:text-amber-600 font-medium transition-colors">
               Home
             </Link>
-            <Link href="#about" className="text-stone-700 hover:text-amber-600 font-medium transition-colors">
+            <Link href="/#about" className="text-stone-700 hover:text-amber-600 font-medium transition-colors">
               About
             </Link>
-            <Link href="#services" className="text-stone-700 hover:text-amber-600 font-medium transition-colors">
+            <Link href="/#services" className="text-stone-700 hover:text-amber-600 font-medium transition-colors">
               Services
             </Link>
             <Link href="/projects" className="text-stone-700 hover:text-amber-600 font-medium transition-colors">
@@ -43,9 +43,7 @@ export default function Header() {
             <Link href="/team" className="text-stone-700 hover:text-amber-600 font-medium transition-colors">
               Our Team
             </Link>
-            <Link href="#contact" className="text-stone-700 hover:text-amber-600 font-medium transition-colors">
-              Contact
-            </Link>
+            
           </nav>
 
           {/* CTA Button */}

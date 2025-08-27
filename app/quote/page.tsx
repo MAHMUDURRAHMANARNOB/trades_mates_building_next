@@ -24,12 +24,48 @@ export default function QuotePage() {
     message: "",
   })
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // Handle form submission
-    console.log("Form submitted:", formData)
-    alert("Thank you for your enquiry! We'll get back to you within 24 hours.")
+  // const handleSubmit = (e: React.FormEvent) => {
+  //   e.preventDefault()
+  //   // Handle form submission
+  //   console.log("Form submitted:", formData)
+  //   alert("Thank you for your enquiry! We'll get back to you within 24 hours.")
+  // }
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault()
+
+  try {
+    const res = await fetch("/api/send-quote", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    })
+
+    if (res.ok) {
+      alert("✅ Thank you for your enquiry! We'll get back to you within 24 hours.")
+
+      // Reset the form
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        projectType: "",
+        location: "",
+        budget: "",
+        timeline: "",
+        message: "",
+      })
+    } else {
+      const { message } = await res.json()
+      alert(`❌ Failed to send: ${message || "Please try again."}`)
+    }
+  } catch (error) {
+    console.error("Error submitting form:", error)
+    alert("❌ Error sending your request. Please try again later.")
   }
+}
+
 
   const handleChange = (field: string, value: string) => {
     setFormData((prev) => ({ ...prev, [field]: value }))
@@ -45,7 +81,7 @@ export default function QuotePage() {
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">Get Your Quote</h1>
             <p className="text-xl md:text-2xl text-amber-100">
-              Ready to start your construction project? Let's discuss your vision.
+              Ready to start your project? Let's discuss your vision.
             </p>
           </div>
         </div>
@@ -66,8 +102,7 @@ export default function QuotePage() {
                     <Phone className="h-5 w-5 text-amber-600 mt-1" />
                     <div>
                       <p className="font-semibold text-stone-900">Phone</p>
-                      <p className="text-stone-600">(02) 9876 5432</p>
-                      <p className="text-stone-600">1800 TRADES</p>
+                      <p className="text-stone-600">+61 429 772 624</p>
                     </div>
                   </div>
 
@@ -75,8 +110,8 @@ export default function QuotePage() {
                     <Mail className="h-5 w-5 text-amber-600 mt-1" />
                     <div>
                       <p className="font-semibold text-stone-900">Email</p>
-                      <p className="text-stone-600">info@tradesmates.com.au</p>
-                      <p className="text-stone-600">quotes@tradesmates.com.au</p>
+                      <p className="text-stone-600">info@tmbservices.com.au</p>
+                      {/* <p className="text-stone-600">quotes@tradesmates.com.au</p> */}
                     </div>
                   </div>
 
@@ -84,8 +119,8 @@ export default function QuotePage() {
                     <MapPin className="h-5 w-5 text-amber-600 mt-1" />
                     <div>
                       <p className="font-semibold text-stone-900">Office</p>
-                      <p className="text-stone-600">123 Construction Ave</p>
-                      <p className="text-stone-600">Sydney NSW 2000</p>
+                      <p className="text-stone-600">321 Belmore Rd, Riverwood</p>
+                      <p className="text-stone-600">Sydney NSW 2210</p>
                     </div>
                   </div>
 
@@ -93,7 +128,7 @@ export default function QuotePage() {
                     <Clock className="h-5 w-5 text-amber-600 mt-1" />
                     <div>
                       <p className="font-semibold text-stone-900">Business Hours</p>
-                      <p className="text-stone-600">Mon-Fri: 7:00 AM - 6:00 PM</p>
+                      <p className="text-stone-600">Mon-Fri: 7:00 AM - 5:00 PM</p>
                       <p className="text-stone-600">Sat: 8:00 AM - 4:00 PM</p>
                     </div>
                   </div>

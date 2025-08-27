@@ -157,10 +157,9 @@ const services = [
     icon: Home,
     title: "Residential Construction",
     subItems: [
-      "New Builds",
+      "Brand New Homes",
       "Custom Home Building",
-      "New Home Construction",
-      "Taileored to your budget's needs",
+      "Tailored to your budget's needs",
     ],
   },
   
@@ -171,7 +170,9 @@ const services = [
       "Kitchen and Bathroom",
       "Interior and Exterior Upgrades",
       "Living Space Redesign",
-      "+more"
+      "Electrical",
+      "Plumbing",
+      "Boutique Services",
     ],
   },
   // {
@@ -184,18 +185,20 @@ const services = [
   // },
   {
     icon: Search,
-    title: "Building Inspections",
+    title: "Building Inspections / Reports",
     subItems: [
       "Handover Defect Inspections",
       "Dilapidation Inspections",
       "Pre-Purchase Property Inspections",
       "Structural Integrity Checks",
+      "Pest Inspection",
     ],
   },
   {
     icon: Shield,
-    title: "Remedial Repairs",
+    title: "Maintenance",
     subItems: [
+      "Remedial Repairs",
       "Crack and Damage Repairs",
       "Restoration of Aged Structures",
       "Weather Damage Restoration",
@@ -216,6 +219,8 @@ const services = [
     subItems: [
       "Town Planning",
       "Surveying",
+      "Development Application Submissions",
+      "Complying Development Certificates (CDC)",
     ],
   },
   {
@@ -225,7 +230,6 @@ const services = [
       "Civil Engineering",
       "Storm Water",
       "Architect",
-      "Private Certifier",
     ],
   },
 ]

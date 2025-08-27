@@ -116,20 +116,18 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
             <div className="space-y-3 text-amber-100">
               <p>
-                123 Construction Ave
+                321 Belmore Rd, Riverwood
                 <br />
-                Sydney NSW 2000
+                Sydney NSW 2210
               </p>
               <p>
-                Phone: (02) 9876 5432
-                <br />
-                Toll Free: 1800 TRADES
+                Phone: +61 429 772 624
               </p>
-              <p>Email: info@tradesmates.com.au</p>
+              <p>Email: info@tmbservices.com.au</p>
               <p className="text-sm">
-                <strong>License:</strong> NSW 123456
+                {/* <strong>License:</strong> NSW 123456 */}
                 <br />
-                <strong>ABN:</strong> 12 345 678 901
+                <strong>ABN:</strong> 87 667 106 069
               </p>
             </div>
           </div>

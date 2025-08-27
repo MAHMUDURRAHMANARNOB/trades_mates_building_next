@@ -35,7 +35,7 @@ export default function Contact() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-amber-900 mb-6">Get In Touch</h2>
           <p className="text-xl text-stone-600 max-w-3xl mx-auto">
-            Ready to start your construction project? Contact us today for a free consultation and quote. We're here to
+            Ready to start your project? Contact us today for a free consultation and quote. We're here to
             bring your vision to life.
           </p>
         </div>
@@ -52,8 +52,7 @@ export default function Contact() {
                   <Phone className="h-5 w-5 text-amber-600 mt-1" />
                   <div>
                     <p className="font-semibold text-stone-900">Phone</p>
-                    <p className="text-stone-600">(02) 9876 5432</p>
-                    <p className="text-stone-600">1800 TRADES</p>
+                    <p className="text-stone-600">+61 429 772 624</p>
                   </div>
                 </div>
 
@@ -61,7 +60,7 @@ export default function Contact() {
                   <Mail className="h-5 w-5 text-amber-600 mt-1" />
                   <div>
                     <p className="font-semibold text-stone-900">Email</p>
-                    <p className="text-stone-600">info@tradesmates.com.au</p>
+                    <p className="text-stone-600">info@tmbservices.com.au</p>
                   </div>
                 </div>
 
@@ -69,8 +68,8 @@ export default function Contact() {
                   <MapPin className="h-5 w-5 text-amber-600 mt-1" />
                   <div>
                     <p className="font-semibold text-stone-900">Office</p>
-                    <p className="text-stone-600">123 Construction Ave</p>
-                    <p className="text-stone-600">Sydney NSW 2000</p>
+                    <p className="text-stone-600">321 Belmore Rd, Riverwood</p>
+                    <p className="text-stone-600">Sydney NSW 2210</p>
                   </div>
                 </div>
 
@@ -78,7 +77,7 @@ export default function Contact() {
                   <Clock className="h-5 w-5 text-amber-600 mt-1" />
                   <div>
                     <p className="font-semibold text-stone-900">Business Hours</p>
-                    <p className="text-stone-600">Mon-Fri: 7:00 AM - 6:00 PM</p>
+                    <p className="text-stone-600">Mon-Fri: 7:00 AM - 5:00 PM</p>
                     <p className="text-stone-600">Sat: 8:00 AM - 4:00 PM</p>
                   </div>
                 </div>
