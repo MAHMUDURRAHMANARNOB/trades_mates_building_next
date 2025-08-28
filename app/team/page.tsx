@@ -7,24 +7,24 @@ import Image from "next/image"
 
 const teamMembers = [
   
+  // {
+  //   id: 1,
+  //   name: "Mariam M Harris",
+  //   position: "Chief Executive Officer (CEO)",
+  //   image: "/team-sarah-chen.png",
+  //   experience: "15+ years",
+  //   qualifications: ["BA Business Administration", "Leadership & Management Certified"],
+  //   description:
+  //     "Mariam leads the company’s strategic direction, ensuring every project is delivered on time, within budget, and to the highest client satisfaction. With over 15 years of leadership experience, she is dedicated to building strong client partnerships and driving sustainable business growth.",
+  //   email: "mariam@tradesmates.com.au",
+  //   phone: "(02) 9876 5438",
+  //   specialties: ["Business Leadership", "Project Delivery", "Client Relations", "Strategic Growth"],
+  // },
   {
     id: 1,
-    name: "Mariam M Harris",
-    position: "Chief Executive Officer (CEO)",
-    image: "/team-sarah-chen.png",
-    experience: "15+ years",
-    qualifications: ["BA Business Administration", "Leadership & Management Certified"],
-    description:
-      "Mariam leads the company’s strategic direction, ensuring every project is delivered on time, within budget, and to the highest client satisfaction. With over 15 years of leadership experience, she is dedicated to building strong client partnerships and driving sustainable business growth.",
-    email: "mariam@tradesmates.com.au",
-    phone: "(02) 9876 5438",
-    specialties: ["Business Leadership", "Project Delivery", "Client Relations", "Strategic Growth"],
-  },
-  {
-    id: 2,
     name: "Redwan Barbour",
     position: "Project Manager",
-    image: "/team-david-rodriguez.png",
+    image: "",
     experience: "18+ years",
     qualifications: ["Diploma in Project Management", "Construction Management Certificate"],
     description:
@@ -34,10 +34,10 @@ const teamMembers = [
     specialties: ["Project Coordination", "Team Management", "Quality Assurance", "Risk Control"],
   },
   {
-    id: 4,
+    id: 2,
     name: "Hikam Razak",
     position: "Nominated Supervisor (Builder)",
-    image: "/team-michael-thompson.png",
+    image: "",
     experience: "20+ years",
     qualifications: ["Licensed Builder NSW", "Construction Supervision Certificate"],
     description:
@@ -47,10 +47,10 @@ const teamMembers = [
     specialties: ["Building Supervision", "Compliance", "Construction Quality", "Team Oversight"],
   },
   {
-    id: 5,
+    id: 3,
     name: "Andrew Torrens",
     position: "Consultant",
-    image: "/images/team/andrew_image.jpg",
+    image: "",
     experience: "30+ years",
     qualifications: ["Business Administration Diploma", "Accounting Certificate", "Tendering & Contracts Specialist"],
     description:
@@ -60,12 +60,12 @@ const teamMembers = [
     specialties: ["Accounts Management", "Tendering", "Administration", "Trade Coordination"],
   },
   {
-    id: 6,
+    id: 4,
     name: "Mahmudur Rahman",
     position: "IT Manager",
-    image: "/images/team/mahmudur-image.jpg",
+    image: "",
     experience: "5+ years",
-    qualifications: ["Bachelor of Information Technology", "Certified Network Specialist", "Cybersecurity Training"],
+    qualifications: ["BSc in Computer Science & Engineering", "Masters in Information Technology", "Cybersecurity Training"],
     description:
       "Mahmudur manages the company’s IT infrastructure, ensuring secure, reliable, and efficient systems across all departments. His expertise supports seamless communication, project tracking, and digital solutions that keep operations running smoothly.",
     email: "mahmudur@tradesmates.com.au",
@@ -73,10 +73,10 @@ const teamMembers = [
     specialties: ["IT Systems Management", "Network Security", "Cloud Solutions", "Software Integration"],
   },
   {
-    id: 3,
+    id: 5,
     name: "Wissam T Riman",
     position: "Civil Engineer",
-    image: "/team-emma-wilson.png",
+    image: "",
     experience: "10+ years",
     qualifications: ["Bachelor of Civil Engineering", "Chartered Engineer Membership"],
     description:
@@ -151,7 +151,7 @@ export default function TeamPage() {
                     </ul>
                   </div>
 
-                  <div className="border-t pt-4 space-y-2">
+                  {/* <div className="border-t pt-4 space-y-2">
                     <div className="flex items-center text-stone-600 text-sm">
                       <Mail className="h-4 w-4 mr-2" />
                       <a href={`mailto:${member.email}`} className="hover:text-amber-600 transition-colors">
@@ -164,7 +164,7 @@ export default function TeamPage() {
                         {member.phone}
                       </a>
                     </div>
-                  </div>
+                  </div> */}
                 </CardContent>
               </Card>
             ))}

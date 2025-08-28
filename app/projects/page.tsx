@@ -143,90 +143,244 @@ const galleryImages = [
     caption: "Laying a strong foundation for a new home in Condell Park, NSW",
     category: "New Build",
   },
+  
   {
     id: 2,
-    src: "/images/home-renovation.jpg",
-    alt: "Renovation of a kitchen in a residential home",
-    caption: "Modernizing a kitchen space in Baulkham Hills, NSW",
-    category: "Renovation",
-  },
-  {
-    id: 3,
-    src: "/images/inspection.jpeg",
+    src: "/images/inspection.png",
     alt: "Inspector reviewing construction work",
-    caption: "Thorough inspection ensuring quality in Castle Hill, NSW",
+    caption: "Thorough inspection ensuring quality in Condell park, NSW",
     category: "Inspection",
   },
   {
-    id: 4,
-    src: "/images/home-repair.jpeg",
-    alt: "Repairing exterior of a home",
-    caption: "Restoring exterior charm in Blacktown, NSW",
-    category: "Repair",
+    id: 3,
+    src: "/images/gallary/project-showcase-9.png",
+    alt: "Modern living room interior design",
+    caption: "Morern Living Room Interior in Sydney, NSW",
+    
+    category: "New Build",
   },
+  {
+    id: 4,
+    src: "/images/project-4.png",
+    alt: "Repairing exterior of a home",
+    caption: "Modern Interior Design in Sydney, NSW",
+    category: "Interior Design",
+  },
+  {
+    id: 5,
+    src: "/images/gallary/project-showcase-2.png",
+    alt: "Repairing exterior of a home",
+    caption: "Modern Kitchen Renovation in Sydney, NSW",
+    category: "Renovation",
+  },
+  {
+    id: 6,
+    src: "/images/gallary/project-showcase-3.png",
+    alt: "Repairing exterior of a home",
+    caption: "Modern Living Room in Sydney, NSW",
+    category: "Electrical",
+  },
+  {
+    id: 7,
+    src: "/images/gallary/project-showcase-4.png",
+    alt: "Repairing exterior of a home",
+    caption: "Construction Work in Sydney, NSW",
+    category: "New Build",
+  },
+  {
+    id: 8,
+    src: "/images/home-renovation.png",
+    alt: "Renovation of a kitchen in a residential home",
+    caption: "Modern Kitchen Renovation in Sydney, NSW",
+    category: "Renovation",
+  },
+  {
+    id: 9,
+    src: "/images/gallary/project-showcase-5.png",
+    alt: "Steel Framing of a home",
+    caption: "Steel Framing in Sydney, NSW",
+    category: "New Build",
+  },
+  {
+    id: 10,
+    src: "/images/gallary/10.jpeg",
+    alt: "A construction site with a large piling rig and two mini excavators.",
+    caption: "Piling a new foundation for a home using a large drilling rig and excavators.",
+    category: "New Build",
+  },
+  {
+    id: 11,
+    src: "/images/home-repair.jpeg",
+    alt: "Repairing Interior of a home",
+    caption: "Fixing Interior damages in a residential home in Sydney, NSW",
+    category: "New Build",
+  },
+  
 ]
 
 const extendedGalleryImages = [
   {
-    id: 5,
+    id: 1,
     src: "/images/gallary/1.jpeg",
     alt: "Framing a new single-story home",
     category: "New Build",
   },
   {
-    id: 6,
+    id: 2,
     src: "/images/gallary/2.jpeg",
     alt: "Renovating a modern bathroom",
     category: "Renovation",
   },
   {
-    id: 7,
+    id: 3,
     src: "/images/gallary/3.jpeg",
     alt: "Repairing a residential roof",
     category: "Repair",
   },
   {
-    id: 8,
+    id: 4,
     src: "/images/gallary/4.jpeg",
     alt: "Building an extension to a home",
     category: "Renovation",
   },
   {
-    id: 9,
+    id: 5,
     src: "/images/gallary/5.jpeg",
     alt: "Preparing a site for new construction",
     category: "New Build",
   },
   {
-    id: 10,
+    id: 6,
     src: "/images/gallary/6.jpeg",
     alt: "Final inspection of a completed home",
     category: "Inspection",
   },
   {
-    id: 11,
+    id: 7,
     src: "/images/gallary/7.jpeg",
     alt: "Installing a new kitchen",
     category: "Renovation",
   },
   {
-    id: 12,
+    id: 8,
     src: "/images/gallary/8.jpeg",
     alt: "Painting the exterior of a home",
     category: "Repair",
   },
   {
-    id: 13,
+    id: 9,
     src: "/images/gallary/9.jpeg",
     alt: "Laying foundation for a new home",
     category: "New Build",
   },
   {
-    id: 14,
+    id: 10,
     src: "/images/gallary/10.jpeg",
     alt: "Finishing interior walls",
     category: "Renovation",
   },
+  
+  {
+    id: 11,
+    src: "/images/project-4.png",
+    alt: "Finishing interior walls",
+    category: "Renovation",
+  },
+  
+  {
+    id: 12,
+    src: "/images/gallary/project-showcase-2.png",
+    alt: "Finishing interior walls",
+    category: "Renovation",
+  },
+  
+  {
+    id: 13,
+    src: "/images/gallary/project-showcase-1.png",
+    alt: "Finishing interior walls",
+    category: "Renovation",
+  },
+  
+  {
+    id: 14,
+    src: "/images/gallary/project-showcase-3.png",
+    alt: "Finishing interior walls",
+    category: "Renovation",
+  },
+  
+  {
+    id: 15,
+    src: "/images/gallary/project-showcase-4.png",
+    alt: "Finishing interior walls",
+    category: "Renovation",
+  },
+  
+  {
+    id: 16,
+    src: "/images/gallary/project-showcase-5.png",
+    alt: "Finishing interior walls",
+    category: "Renovation",
+  },
+  
+  {
+    id: 17,
+    src: "/images/gallary/project-showcase-6.png",
+    alt: "Finishing interior walls",
+    category: "Renovation",
+  },
+  
+  {
+    id: 18,
+    src: "/images/gallary/project-showcase-7.png",
+    alt: "Finishing interior walls",
+    category: "Renovation",
+  },
+  
+  {
+    id: 19,
+    src: "/images/gallary/project-showcase-8.png",
+    alt: "Finishing interior walls",
+    category: "Renovation",
+  },
+  
+  {
+    id: 20,
+    src: "/images/gallary/10.jpeg",
+    alt: "Finishing interior walls",
+    category: "Renovation",
+  },
+  {
+    id: 21,
+    src: "/images/gallary/project-showcase-9.png",
+    alt: "Finishing interior walls",
+    category: "Renovation",
+  },
+  {
+    id: 22,
+    src: "/images/home-build-piling.png",
+    alt: "Finishing interior walls",
+    category: "Renovation",
+  },
+  {
+    id: 23,
+    src: "/images/inspection.png",
+    alt: "Finishing interior walls",
+    category: "Renovation",
+  },
+  {
+    id: 24,
+    src: "/images/project-3.png",
+    alt: "Finishing interior walls",
+    category: "Renovation",
+  },
+  
+  {
+    id: 26,
+    src: "/images/home-renovation.png",
+    alt: "Finishing interior walls",
+    category: "Renovation",
+  },
+  
   
 ]
 
