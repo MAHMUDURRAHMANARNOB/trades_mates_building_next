@@ -81,7 +81,7 @@ import { act } from 'react'
 
 const featuredProjects = [
   {
-    title: "Luxary Residential Home",
+    title: "Luxury Residential Home",
     image: "/condell-park-project.jpg",
     location: "Condell Park, NSW",
     description: "Laying a strong foundation for a new home in Condell Park, NSW",
