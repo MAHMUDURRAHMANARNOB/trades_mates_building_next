@@ -48,7 +48,11 @@ export default function Header() {
 
           {/* CTA Button */}
           <div className="hidden lg:block">
+            <Link href="tel: 1300 928 985" className="text-stone-700 hover:text-amber-600 font-medium transition-colors mx-2 font-semibold">
+              1300 928 985
+            </Link>
             <Link href="/quote">
+            
               <Button className="bg-amber-600 hover:bg-amber-700 text-white px-6 py-2 font-semibold">
                 Get Your Quote
               </Button>

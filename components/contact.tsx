@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Phone, Mail, MapPin, Clock } from "lucide-react"
 import { useState } from "react"
+import Link from "next/dist/client/link"
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -52,7 +53,10 @@ export default function Contact() {
                   <Phone className="h-5 w-5 text-amber-600 mt-1" />
                   <div>
                     <p className="font-semibold text-stone-900">Phone</p>
-                    <p className="text-stone-600">+61 429 772 624</p>
+                    <Link href="tel: 1300 928 985" className="text-amber-700 hover:text-stone-600 font-medium transition-colors hover:font-semibold">
+              1300 928 985
+            </Link>
+                    {/* <p className="text-stone-600">1300 928 985</p> */}
                   </div>
                 </div>
 

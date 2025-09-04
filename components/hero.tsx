@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Play, Pause } from "lucide-react"
+import { ArrowRight, Play, Pause, Phone, PhoneCall } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 import { motion } from "framer-motion"
@@ -96,6 +96,23 @@ export default function Hero() {
                   <Play className="ml-2 h-4 w-4" />
                 </Button>
               </Link>
+            </motion.div>
+
+            <motion.div
+              initial={{ x: -30, opacity: 0 }}
+              animate={{ x: 0, opacity: isLoaded ? 1 : 0 }}
+              transition={{ duration: 0.6, delay: 0.6 }}
+              className="flex flex-col sm:flex-row gap-3 mb-8"
+            >
+              <Link href="tel: 1300 928 985">
+                <Button size="lg" className="bg-white hover:bg-amber-700 text-amber-600 hover:text-white px-6 py-2 text-base font-semibold rounded-full transition-all duration-300 transform hover:scale-105">
+                
+
+                  Hotline: 1300 928 985
+                  <PhoneCall className="ml-2 h-4 w-4" />
+                </Button>
+              </Link>
+              
             </motion.div>
 
             {/* Stats */}

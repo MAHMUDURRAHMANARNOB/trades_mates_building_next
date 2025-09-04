@@ -121,7 +121,10 @@ export default function Footer() {
                 Sydney NSW 2210
               </p>
               <p>
-                Phone: +61 429 772 624
+              <Link href="tel: 1300 928 985" className=" hover:text-white font-medium transition-colors font-semibold">
+            1300 928 985
+            </Link>
+                {/* <Link >Phone: 1300 928 985</Link> */}
               </p>
               <p>Email: info@tmbservices.com.au</p>
               <p className="text-sm">
